@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Team-CMD/SPTJ_CMD-HomePage/blob/main/src/docs/web-crawler.png"/>
+  <img src="https://github.com/Team-CMD/SPTJ_Web-Crawling/blob/main/src/docs/web-crawler.png"/>
 </p>
 <h1 align="center">Web_Crawling</h1>
 
