@@ -8,6 +8,7 @@
   ### Goal of Project
    >> 원하는 웹상의 정보를 크롤링하여 무심코 지나쳤던 정보들의 참된 가치를 창출하고자 합니다!
 
+  ▶ 프로젝트에 대한 진행과정과 세부내용은 [Web_Crawling Wiki](https://github.com/Team-CMD/SPTJ_Web-Crawling/blob/main/wiki/Home.md)를 확인해주세요! :)
 ___ 
 ## 💻 Programming Skill Stacks
   #### 👓 Programming Stacks  
