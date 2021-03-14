@@ -17,7 +17,10 @@
     participants : CMD_Web-Crawling Team(3)
 
     Date : 2021. 03. 14.
-    Contents : 중간회의(예정)
+    Contents : 중간회의(완료)
     participants : CMD_Web-Crawling Team(3)
 
+    Date : 2021. 03. 28.
+    Contents : 중간회의(예정)
+    participants : CMD_Web-Crawling Team(3)
     etc...
