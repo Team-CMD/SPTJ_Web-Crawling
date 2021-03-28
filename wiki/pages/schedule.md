@@ -8,6 +8,7 @@
 ## 🎉 Part-time Period
     선수 학습기간 : 2weeks
     프로젝트 개발기간 : About 3months
+        1. First Code : 2weeks
     이슈, 에러 수정기간 : About 2weeks
     etc...
 
