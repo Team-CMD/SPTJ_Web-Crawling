@@ -33,10 +33,6 @@
     Contents : 중간회의(완료)
     participants : CMD_Web-Crawling Team(3)
     
-    Date : 2021. 05. 16.
-    Contents : 중간회의 + flask 공부 정리 (예정)
-    participants : CMD_Web-Crawling Team(3)
-    
     Date : 2021. 05. 31.
     Contents : 중간회의 + 통합 전 정리 (예정)
     participants : CMD_Web-Crawling Team(3)
