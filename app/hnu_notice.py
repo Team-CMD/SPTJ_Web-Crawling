@@ -2,12 +2,6 @@ import re , csv
 import requests
 import urllib.request as ur
 from bs4 import BeautifulSoup as bs
-import pandas as pd
-
-
-# "http://www.hannam.ac.kr/community/community_0104.html"  -> 공지
-# "http://janghak.hannam.ac.kr/sub4/menu_1.html" -> 장학
-# "http://www.hannam.ac.kr/guide/guide_0200.html" -> 학사
 
 def search_URL(url, N):
     html = ur.urlopen(url).read()
@@ -27,9 +21,7 @@ def search_URL(url, N):
     return url_list
 
 def UNU_noice(url_list):
-    thead_list = ["제목","날자"] 
-
-    row_list = [] #행
+    row_list = []
     
     for url in url_list:
         source = requests.get(url)
@@ -40,26 +32,25 @@ def UNU_noice(url_list):
         del tr_data[0] #처음 부분 삭제(불필요한 부분 삭제)
 
         tr_data_len = len(tr_data)
-        column_list = [] #열
+        # column_list = [] #열
+
         for i in range(0, tr_data_len):
+            column_list = [] #초기화
+            if tr_data[i].get('class'): # 고정된 게시물 o
+                fix = False
+            else:                       # 고정된 게시물 x 
+                fix = True
             td_data = tr_data[i].find_all('td')
-            
             td_data_len = len(td_data)
             for j in range(0, td_data_len): #td 가져오기
                 element = td_data[j].text.strip()
-                
-                # element = re.sub('&nbsp; | &nbsp;|\n|\t|\r|  ' , '', td_data[j].text.strip()) #stripe() #빈공간 정리
                 column_list.append(element)
-                
-                # print(j, ' - ', td_data[j])
             del column_list[0:2] #열의 불필요한 부분 제거
             del column_list[2] ##열의 불필요한 부분 제거
-            row_list.append([column_list[1], column_list[2]]) #열에 있는 내용을 행에 넣기
-            column_list = [] #초기화
+            row_list.append([fix,column_list[1], column_list[2]]) #열에 있는 내용을 행에 넣기
             
-        result = pd.DataFrame(row_list,columns=thead_list)
 
-    return result
+    return row_list
 
 if __name__ == "__main__":
     notice = "http://www.hannam.ac.kr/community/community_0104.html"  # -> 공지
@@ -72,8 +63,15 @@ if __name__ == "__main__":
 
     notice_result = UNU_noice(notice_list)
     scholar_result = UNU_noice(scholar_list)
-    univ_result = UNU_noice(univ_list ) 
+    univ_result = UNU_noice(univ_list )
 
-    notice_result.to_csv('HNU Notice.csv', encoding= 'UTF-8-sig')
-    scholar_result.to_csv('Scholar Notice.csv', encoding= 'UTF-8-sig')
-    univ_result.to_csv('Academic Notice.csv', encoding= 'UTF-8-sig')
+    # 결과값 확인하고 지우면 됩니다.
+    print("\n--------------------공지사항--------------------\n")
+    for i in range(len(notice_result)):
+        print(i+1,notice_result[i])
+    print("\n--------------------장학공지--------------------\n")
+    for i in range(len(scholar_result)):
+        print(i+1,scholar_result[i])
+    print("\n--------------------학사공지--------------------\n")
+    for i in range(len(univ_result)):
+        print(i+1,univ_result[i])
