@@ -13,19 +13,22 @@ ___
 ## 💻 Programming Skill Stacks
   #### 👓 Programming Stacks  
     - Python Ver 3.x.x.  
-    - Used Third-Party Module
+    - Third-Party Module
         * BeautifulSoup
-        * Sellenium
-        * Py-spider
+        * urllib
+        * Requests
         * Any other Modules
 ___ 
 ## 💼 About Developer Team
-
   ### Cowork Position ▼
    | Category | Position | work | Github |  
    | :-----: | :-----: | :-----: | :----: |
-   | Developer | **Leader** | develop | [sinbak](https://github.com/sinbak) |  
-   | Developer | Member | develop | [HS980924](https://github.com/HS98094) |  
-   | UI Design | Member | develop | [jh9892](https://github.com/jh9892) |  
+   | Main ( Crawling ) | **Leader** | develop | [sinbak](https://github.com/sinbak) |  
+   | Main ( Crawling ) | Member | develop | [HS980924](https://github.com/HS98094) |  
+   | Main ( Design, Server ) | Member | develop | [jh9892](https://github.com/jh9892) |  
    
 
+___
+
+## 🤝 MSG
+    2021-06-21. 03:08 부로 기본 기능및 디자인 완성. Refactoring 기간에 봅시다! :)
