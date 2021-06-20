@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/template.css">
+    <title>HNU_NoticeBot</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/img/schalarship_notice.png" alt="background">
+        <header class="head">
+            <h1 id="title"> 🏆 Schalarship_Notice</h1>
+            <h3 id="time">Now is {{time}}</h3>
+        </header>
+        <main>
+            <h4 class="tableTitle">Category</h4>
+            <h4 class="tableTitle">TITLE</h4>
+            <h4 class="tableTitle">DATE</h4>
+            {% for item in result %}
+                {% if item[0]==False %}
+                    <span class="items" style="color:red;">공지게시글</span>
+                    <span class="items" style="color:red;">{{item[1]}}</span>
+                    <span class="items">{{item[-1]}}</span>
+                {% else %}
+                    <span class="items" style="color: black;">일반게시글</span>
+                    <span class="items" style="color:black;">{{item[1]}}</span>
+                    <span class="items">{{item[-1]}}</span>
+                {% endif %}
+            {% endfor %}
+        </main>
+    </div>
+</body>
+</html>

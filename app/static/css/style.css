@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mate SC', serif;
+}
+
+.container {
+    width: 100vw;
+    height:100vh;
+    background-image: url("../img/bkIMG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------- Header Parts ----------*/
+header {
+    width: inherit;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+}
+
+#title {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header input {
+    width: 150px;
+    height:30px;
+}
+
+/*---------- Main Parts ----------*/
+main {
+    width: inherit;
+    height: 80vh;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+}
+
+.notice_area {
+    width:calc(100%/3);
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width:60%;
+    height: 20vh;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 2px black;
+}
+
+.posContainer {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.notice_title {
+    margin: 0 auto;
+    font-family: 'Stylish', sans-serif;
+    font-size: 2rem;
+} 
+
+/*---------- Footer Parts ----------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: inherit;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer p {
+    font-size: 1rem;
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px white;
+}

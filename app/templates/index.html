@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>HNU_NoticeBot</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">College - Noticebot</h1>
+        </header>
+        <main>
+            <section class="notice_area">
+                <div class="card">
+                    <h2 class="notice_title">공지사항 👇</h2>
+                    <div class="posContainer">
+                        <form action="/hnu_notice" method="get">
+                            <button id="hnu_notice" class="button">Go</button>
+                        </form>
+                        <button class="button" onclick = "window.open('http://www.hannam.ac.kr/community/community_0104.html')">Site</button>
+                    </div>
+                </div>
+            </section>
+            <section class="notice_area">
+                <div class="card">
+                    <h2 class="notice_title">장학공지 👇</h2>
+                    <div class="posContainer">
+                        <form action="/schalarship_notice" method="get">
+                            <button id="schalarship_notice" class="button">Go</button>
+                        </form>
+                        <button class="button" onclick = "window.open('http://janghak.hannam.ac.kr/sub4/menu_1.html')">Site</button>
+                    </div>
+                </div>
+            </section>
+            <section class="notice_area">
+                <div class="card">
+                    <h2 class="notice_title">학사공지 👇</h2>
+                    <div class="posContainer">
+                        <form action="/univ_notice" method="get">
+                            <button id="college_notice" class="button">Go</button>
+                        </form>
+                        <button class="button" onclick = "window.open('http://www.hannam.ac.kr/guide/guide_0200.html')">Site</button>
+                    </div>
+                </div>
+            </section>
+            </aside>
+        </main>
+        <footer>
+            <p>🛠 Copyright by <a href="https://github.com/Team-CMD" target="_blank" style="text-decoration: none; color: black;"><b>Team CMD</b></a>, SPTJ in <b>Web-Crawling Team</b> 🛠</p>
+            <p>🛠 All creature can not use without permission. Please contact Team CMD belong to github or Email :) 🛠</p>
+        </footer>
+    </div>
+</body>
+</html>
