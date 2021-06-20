@@ -49,7 +49,6 @@ def HNU_notice(url_list):
             del column_list[2] ##열의 불필요한 부분 제거
             row_list.append([fix,column_list[1], column_list[2]]) #열에 있는 내용을 행에 넣기
             
-
     return row_list
 
 if __name__ == "__main__":
