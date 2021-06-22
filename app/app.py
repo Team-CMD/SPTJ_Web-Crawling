@@ -34,4 +34,4 @@ def univ_notice():
     return render_template("univ_notice.html", time = Now, Target_URL = univ_url, result = univ_res)
 
 if __name__=="__main__":
-    app.run()
+    app.run(host="0.0.0.0")
