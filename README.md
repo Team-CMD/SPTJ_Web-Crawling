@@ -75,3 +75,4 @@ ___
 ![logic maps](./src/logic.png)
 ___ 
 
+`Copyright to Team CMD. and @JH9892, @sinbak, @HS980924. All creatures cannot be copied without permission.`
