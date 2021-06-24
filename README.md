@@ -30,13 +30,13 @@ ___
   > **🤟 If you see our project, we have 2 ways! Follow the steps below to proceed.**
   ___
   - ## **☝ First!**
-    1. Step 01.  
+    1. ### Step 01.  
       - Write to the Issue in our project.  
         ```bash
         "I'm sorry... Later, We must update any other server and upload."
         USER : Please running to local server! 
         ```
-    2. Step 02.  
+    2. ### Step 02.  
       - The generated server url is provided.
         ```bash
         "I'm sorry... Later, We must update any other server and upload."
@@ -52,7 +52,7 @@ ___
         ```bash
           > cd app
         ```
-    3. ###  Step 02.  
+    2. ###  Step 02.  
       - Execute `ngrok.exe` and `app.py`, take the command.
         ```bash
         # app.py
