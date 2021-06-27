@@ -37,4 +37,8 @@
     Contents : 중간회의 + 통합 전 정리 (예정)
     participants : CMD_Web-Crawling Team(3)
     
+    Date : 2021. 06. 26.
+    Contents : 중간회의 + 추가 기능에 대한 의견 종합
+    participants : CMD_Web-Crawling Team(3)
+    
     etc...
