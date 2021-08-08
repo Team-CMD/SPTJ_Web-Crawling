@@ -3,8 +3,8 @@
 </p>
 <h1 align="center">Web_Crawling</h1>
 
-___
-<Br><Br>
+## `This Project is Finish Successed!!`
+<Br>
 # **📃 Introduce to Our Project!**
   - 해당 프로젝트는 **Team CMD**의 활동중 하나인 `SPTJ`의 결과물입니다.
   - ## 🏆 **Goal of Project**
@@ -14,7 +14,7 @@ ___
 
    - 프로젝트에 대한 진행과정과 세부내용은 [**📚 Web_Crawling Wiki**](https://github.com/Team-CMD/SPTJ_Web-Crawling/blob/main/wiki/Home.md)를 확인해주세요! :)
 ___ 
-<Br><Br><Br>
+<Br>
 
 # **💼 About Team**
   ## 👇 **Cowork Position** 👇
@@ -25,7 +25,7 @@ ___
    | SW Engineer | Mate | `Frontend( WebPage ), Backend( Server )` | [Jh9892's Github](https://github.com/jh9892) |  
    
 ___
-<Br><Br><Br>
+<Br>
 # **💻 How to See the project?**
   > **🤟 If you see our project, we have 2 ways! Follow the steps below to proceed.**
   ___
